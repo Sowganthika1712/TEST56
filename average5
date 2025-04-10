@@ -29,5 +29,6 @@
 
            DISPLAY "The average is: " AVERAGE.
            DISPLAY "Hii".
+           display "Loki universe".
 
            STOP RUN.
