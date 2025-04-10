@@ -1,0 +1,32 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. AVERAGE-CALC.
+
+       ENVIRONMENT DIVISION.
+       INPUT-OUTPUT SECTION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 NUMBERS.
+           05 NUM1 PIC 9(4).
+           05 NUM2 PIC 9(4).
+           05 NUM3 PIC 9(4).
+           05 NUM4 PIC 9(4).
+           05 NUM5 PIC 9(4).
+       01 TOTAL PIC 9(6) VALUE 0.
+       01 AVERAGE PIC 9(4)V9(2).
+
+       PROCEDURE DIVISION.
+       MAIN-PARA.
+           DISPLAY "Enter 5 numbers: ".
+           ACCEPT NUM1.
+           ACCEPT NUM2.
+           ACCEPT NUM3.
+           ACCEPT NUM4.
+           ACCEPT NUM5.
+
+           COMPUTE TOTAL = NUM1 + NUM2 + NUM3 + NUM4 + NUM5.
+           COMPUTE AVERAGE = TOTAL / 5.
+
+           DISPLAY "The average is: " AVERAGE.
+
+           STOP RUN.
