@@ -28,7 +28,6 @@
            COMPUTE AVERAGE = TOTAL / 5.
 
            DISPLAY "The average is: " AVERAGE.
-           DISPLAY "Hii".
            display "Loki universe".
 
            STOP RUN.
