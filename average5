@@ -28,5 +28,6 @@
            COMPUTE AVERAGE = TOTAL / 5.
 
            DISPLAY "The average is: " AVERAGE.
+           DISPLAY "Hii".
 
            STOP RUN.
