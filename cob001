@@ -19,5 +19,6 @@
             COMPUTE TOTAL = NUM1 + NUM2.
 
            DISPLAY "The sum of the two numbers is: " TOTAL.
-
+           DISPLAY "ADDITION".
+           
            STOP RUN.
